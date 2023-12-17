@@ -1,0 +1,33 @@
+/* custom.css */
+
+body {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    font-family: 'Courier New', monospace; /* Monospace font for a terminal-like feel */
+}
+
+.container {
+    max-width: 800px; /* Set a maximum width for the whole content */
+    margin: 50px auto; /* Center the content on the page with some margin */
+}
+
+.banner {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Add some styles for the terminal container */
+.terminal-wrapper {
+    max-width: 100%; /* Make the terminal wrapper fill the width of the container */
+    padding: 20px; /* Add padding for a cleaner look */
+    background-color: #333; /* Dark background color for the terminal wrapper */
+    border-radius: 8px; /* Add rounded corners for a nicer appearance */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Styles for xterm.js elements */
+.xterm {
+    background-color: #333 !important; /* Override xterm.js background color */
+    color: #fff !important; /* Override xterm.js text color */
+}
